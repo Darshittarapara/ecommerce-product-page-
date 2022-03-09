@@ -229,7 +229,7 @@ top: 10px;
 
 
 
-@media screen and (max-width:545px) {
+@media screen and (min-device-width:300px) and (max-device-width:545px) {
     .container {
 
         width: 90vw;
