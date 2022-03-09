@@ -238,6 +238,13 @@ top: 10px;
         overflow:auto;
 
     }
+    .container .middle .contain p {
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 24px;
+
+
+} 
     .container .header .menu-icon {
         display: block;
         position: absolute;
@@ -308,7 +315,7 @@ left: 0px;
     }
     .container .middle .img img {
         border-radius: 0px;
-        height: 300px;
+        height: 250px;
     }
     .container .middle .manual #btn-1{
         position: absolute ;
