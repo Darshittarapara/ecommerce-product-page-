@@ -388,7 +388,7 @@ justify-content: space-around;
 }
 .container .middle .contain  .button .left{
     width: 80vw;
-    height: 60px;
+    height: 40px;
     display: flex;
     justify-content: space-around;
 }
@@ -412,13 +412,17 @@ margin-top: 20px;
 }
 .container .middle .contain  .button  .right #btn{
 width: 80vw;
-height: 60px;
+height: 40px;
+    
 margin-left: -20px;
 }
+    .container .middle .contain  .button  .right #btn:hover {
+        background:black
+    }
 .container .middle .contain .amount{
     color: black;
     font-weight: bolder;
-    font-size: 27px;
+    font-size: 24px;
     margin: 0px 5px;
 }
 .container .middle .contain .discount {
