@@ -233,9 +233,9 @@ top: 10px;
     .container {
 
         width: 90vw;
-        margin: 20px auto;
-        height:100vh;
-
+        margin: 10px auto;
+        height:100vh; 
+        overflow:auto;
 
     }
     .container .header .menu-icon {
