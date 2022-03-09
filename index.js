@@ -37,8 +37,9 @@ let btn =document.getElementById("btn2")
 
 const target = () =>{
     value()
+        delecticon.style.display="block"
     mainblock.style.display="block"
-    delecticon.style.display="block"
+
 
     img.style.display="block"
 
