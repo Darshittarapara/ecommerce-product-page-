@@ -48,7 +48,7 @@ const sildermoblie =(b)=>{
        
     }
   
-targetimg.src =url[b]
+targetimg.src =urls[b]
 
 }
 
