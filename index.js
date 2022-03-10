@@ -5,11 +5,11 @@ let btntwo =document.getElementById("btn-2")
 let font =document.getElementById("btn");
 font.style.fontSize="18px"
 let flag=-1
-
+    let url =["./images/image-product-1.jpg","./images/image-product-2.jpg","./images/image-product-3.jpg","./images/image-product-4.jpg"];
 let targetimg=document.getElementById("target-img")
 let blur =document.getElementsByClassName("blur")
 const silder =(a)=>{
-    let url =["./images/image-product-1.jpg","./images/image-product-2.jpg","./images/image-product-3.jpg","./images/image-product-4.jpg"];
+
     if(a==url.length){
         a=0;
        
@@ -39,16 +39,17 @@ const revesesilder =(c)=>{
       second=url.length
 
   }
-    targetimg.src =url[c]
+    targetimg.src =urls[c]
 }
 const sildermoblie =(b)=>{
+      let urlss =["./images/image-product-1.jpg","./images/image-product-2.jpg","./images/image-product-3.jpg","./images/image-product-4.jpg"];
     if(b==url.length){
         b=0;
         values=-1;
        
     }
   
-targetimg.src =urls[b]
+targetimg.src =urlss[b]
 
 }
 
