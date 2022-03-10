@@ -1,0 +1,510 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:  hsl(219, 9%, 45%);
+}
+.container {
+    box-shadow: 2px 2px 10px hsl(219, 9%, 45%);
+    border-radius: 19px;
+   width: 80vw;
+   height: 90vh;
+   margin: 30px 20px;
+   background:white ;
+   transform: scale(1.00);
+}
+.container .header {
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container .header .profile #avtar {
+    width: 50px;
+    height: 30px;
+    margin: 0px 10px;
+}
+
+.container .header .navbar  nav .list li {
+    display: inline-block;
+    margin: 0px 15px;
+}
+.container .header .navbar  nav .list li a {
+    color: dimgray;
+    text-decoration: none;
+    font-weight: 500;
+
+}
+.container .middle {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 70px;
+    flex-wrap: wrap;
+}
+.container .middle .img {
+    width: 28%;
+
+}
+.container .middle .img img {
+    width: 100%;
+    height: 350px;
+    border-radius: 20px;
+}
+.container .middle .contain {
+    width: 55%;
+margin-top: -60px;
+  
+}
+.container .middle .contain .heading {
+padding-bottom: 20px;
+    color:hsl(26, 100%, 55%)
+}
+.container .middle .contain h2 {
+margin: 10px 0px;
+font-size: 38px;
+font-family: 'Times New Roman', Times, serif;
+width: 80%;
+}
+.container .middle .contain p {
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 28px;
+
+
+}
+.container .middle .contain .amount{
+    color: black;
+    font-weight: bolder;
+    font-size: 18px;
+    margin: 0px 5px;
+}
+.container .middle .contain .discount {
+    color:hsl(26, 100%, 55%) ;
+    width: 40px;
+    padding: 5px 5px;
+    background: hsl(25, 100%, 94%);
+}
+.container .middle .contain .off {
+    display: block;
+    margin: 5px 10px;
+    color:  hsl(220, 14%, 75%);
+    font-size: 17px;
+    text-decoration: line-through;
+}
+.container .middle .contain .button {
+    display: flex;
+    
+}
+.container .middle .contain .button .left {
+    margin: 10px 10px;
+    background-color: hsl(220, 14%, 75%);
+    width: 60px;
+height: 20px;
+}
+.container .middle .contain .button .left #plus {
+position: relative;
+left: 6px;
+}
+.container .middle .contain .button .left #get {
+    text-align: center;
+    margin-left: 10px;
+}
+
+.container .middle .contain .button .right {
+    margin: 0px 30px;
+}
+.container .middle .contain .button .right #btn {
+    padding: 10px 20px;
+    width: 200px;
+    background:hsl(26, 100%, 55%)  ;
+    color: white;
+    border: 0px;
+    border-radius: 20px;
+}
+.container .change {
+    margin: 10px 40px;
+}
+.container .change img {
+    margin: 0px 10px;
+    height: 130px;
+    border-radius: 15px;
+}
+.container .target {
+    width: 300px;
+    height: 200px;
+    background-color: #ffffff;
+    text-align: center;
+    position: absolute;
+    top: 50px;
+    display: none;
+    right: 60px;
+}
+.container .abc {
+    display: block;
+}
+.container .target #main-block #cal  {
+    display: flex;
+    margin: 10px 18px;
+    padding: 0px 20px;
+}
+.container .target #main-block img {
+    float: left;
+    width: 50px;
+    display: none;
+    height: 50px;
+}
+.container .target #main-block #cal  #headins ,.container .target #main-block #cal  #headins-two{
+    color: dimgray;
+}
+.container .target #main-block #cal  #headins-three{
+    margin: 0px 10px;
+}
+.container .moblie-navbar {
+    display: none;
+}
+
+.container .target #main-block button{
+    padding: 10px 20px;
+    width: 200px;
+    background:hsl(26, 100%, 55%)  ;
+    color: white;
+    display: none;
+    border: 0px;
+    border-radius: 20px;
+}
+.container.span {
+    background-color: aqua;
+    width: 20px;
+    height: 40px;
+    position: absolute;
+    top: 0px;
+}
+.container .target .none {
+    display: none;
+}
+.container .target #main-block #cal #delecticon {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    display: inline;
+    width: 20px;
+    height: 20px;
+    display: none;
+}
+.container .span {
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+border-radius: 15px;
+display: none;
+    position: absolute;
+top: 5px;
+    right: 170px;
+}
+.container .span #taken {
+    color: white;
+    padding: 0px 2px;
+    text-align: center;
+}
+.container .header .menu-icon {
+    display: none;
+}
+.container #close  {
+    display: none;
+}
+.container .middle .manual #btn-1{
+   display: none;
+
+    }
+.container .middle .manual #btn-2{
+
+    display: none;
+
+}
+
+
+
+@media screen and (max-device-width:995px){
+
+    .container {
+        height: auto;
+        width: 100vw;
+        margin-top: 140px;
+        background:white;
+    }
+    .container .span {
+        width: 20px;
+        height: 20px;
+        background-color: orange;
+    border-radius: 15px;
+        position: absolute;
+    top: 5px;
+        right: 110px;
+    }
+    .container .middle .img {
+        width: 38%;
+    
+    }
+    .container .middle .img img {
+        width: 100%;
+        height: 350px;
+        border-radius: 20px;
+    }
+    .container .change {
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+}
+
+
+
+
+@media screen and (min-width:550px) and (max-width:710px){
+    .container {
+        background-color: white;
+        width: 95vw; 
+        
+    }
+    .container .span {
+        width: 20px;
+        height: 20px;
+        background-color: orange;
+    border-radius: 15px;
+        position: absolute;
+    top: 5px;
+        right: 70px;
+    }
+    .container .change {
+        margin-top: 20px;
+        width: 100vw;
+        margin-left: 14px;
+    }   .container .middle .img {
+        width: 42%;
+    
+    }
+    .container .middle .img img {
+        width: 100%;
+        height: 300px;
+        border-radius: 20px;
+    }
+}
+
+
+
+
+@media screen and (max-width:545px) {
+    .container {
+background: white;
+        width: 90vw;
+        margin: 20px auto;
+        height:100vh;
+        overflow: auto;
+
+    }
+    .container .header .header-logo {
+      margin-left: 5x;
+    }
+    .container .header .menu-icon {
+        display: block;
+        position: absolute;
+        left: 6px;
+     
+    } 
+    .container .navbar  {
+        display: none;
+    }
+    .container .moblie-navbar {
+display: block;
+transition: all 1s ease-in-out;
+position: absolute;
+left: -200px;
+top: -2px;
+height: 100vh;
+       
+    }
+    .container .display-block{
+        position: absolute;
+left: 0px;
+    }
+    .container .moblie-navbar nav .list-2 {
+        position: absolute;
+        left: -20px;
+        padding-top: 70px;
+        padding-left: 20px;
+    top:-30px;
+        width: 200px;
+        height: 100vh;
+        background:whitesmoke;
+        list-style-type: none;
+    }
+    .container .moblie-navbar nav .list-2 li {
+        margin:10px 16px;
+    }
+    .container .moblie-navbar nav .list-2 li a {
+        text-decoration: none;
+        color:black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+    }
+    .container .saw {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 20px;
+   z-index: 2;
+        left: 10px;
+        display: none;
+
+    }
+
+    .container .change {
+        display: none;
+    }
+    .container .middle {
+        display: flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+        align-items: center;
+        margin-top: 0px;
+        flex-wrap: wrap;
+    } 
+    .container .middle .img {
+        width: 100%;
+        border-radius: 0px;
+    }
+    .container .middle .img img {
+        border-radius: 0px;
+        height: 300px;
+    }
+    .container .middle .manual #btn-1{
+        position: absolute ;
+        top: 16%;
+        background-color: wheat;
+        border: 1px solid black;
+        padding: 10px 10px;
+        left: 0px;
+        border-radius: 50%;
+        display: block;
+        color: black;
+
+        }
+    .container .middle .manual #btn-2{
+        position: absolute ;
+        top: 16%;
+        display: block;
+        background-color: wheat;
+        border: 1px solid black;
+        padding: 10px 10px;
+        right: 0px;
+        border-radius: 50%; 
+        color: black;
+        z-index: 2;
+
+    
+    }
+    .container .target {
+        width: 100vw;
+     z-index: 3;
+        height: 200px;
+        background-color: #ffffff;
+        text-align: center;
+        position: absolute;
+        top: 50px;
+        right: 0px;
+
+    }
+    .container .target #main-block #cal  {
+        display: flex;
+        margin: 10px auto;
+        padding: 0px auto;
+    }
+    .container .target #main-block img {
+        float: left;
+        width: 70px;
+        margin-left: 60px;
+     
+        height: 70px;
+}
+.container .middle .contain {
+    width: 100%;
+margin-top: 20px;
+padding: 0px 15px;  
+}
+.container .middle .contain h2 {
+    font-size: 36px;
+    width: 100%;
+}
+.container .middle .contain .off {
+    
+    display: inline-block;
+
+}
+.container .middle .contain  .button {
+display: flex;
+flex-direction: column;
+margin-top: 5px;
+justify-content: space-around;
+}
+.container .middle .contain  .button .left{
+    width: 80vw;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.container .middle .contain  .button .left img {
+width: 30px;
+height: 10px;
+margin-top: 20px;
+}
+.container .middle .contain  .button .left #get{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 28px;
+}
+.container .middle .contain  .button .left #plus{
+    width: 20px;
+    height: 20px;
+}
+.container .middle .contain  .button  .right{
+    margin-top: 10px;
+
+}
+.container .middle .contain  .button  .right #btn{
+width: 80vw;
+height: 50px;
+margin-left: -20px;
+}
+.container .middle .contain .amount{
+    color: black;
+    font-weight: bolder;
+    font-size: 23px;
+    margin: 0px 5px;
+}
+.container .middle .contain .discount {
+    color:hsl(26, 100%, 55%) ;
+    width: 40px;
+    font-size: 24px;
+    padding: 5px 5px;
+    background: hsl(25, 100%, 94%);
+}
+.container .span {
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+border-radius: 15px;
+    position: absolute;
+top: 10px;
+    right: 100px;
+}
+}
+
+
+
+
+
