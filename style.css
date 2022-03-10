@@ -333,6 +333,9 @@ height: 100vh;
 left: 0px;
         z-index:4;
     }
+    .container #close  {
+    z-index:4;
+}
     .container .moblie-navbar nav .list-2 {
         position: absolute;
         left: -20px;
@@ -496,11 +499,11 @@ margin-left: -20px;
 }
 .container .span {
     width: 20px;
-    height: 10px;
+    height: 20px;
     background-color: orange;
 border-radius: 15px;
     position: absolute;
-top: 10px;
+top: 8px;
     right: 100px;
 }
     .container .span #get {
