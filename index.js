@@ -4,6 +4,53 @@ let btntwo =document.getElementById("btn-2")
 
 let font =document.getElementById("btn");
 font.style.fontSize="18px"
+let flag=-1
+let url =["./images/image-product-1.jpg","./images/image-product-2.jpg","./images/image-product-3.jpg","./images/image-product-4.jpg"];
+let targetimg=document.getElementById("target-img")
+let blur =document.getElementsByClassName("blur")
+const silder =(a)=>{
+    if(a==url.length){
+        a=0;
+       
+    }
+    for(let b of blur){
+        b.style.border="0px"
+        b.style.opacity="1"
+    }
+targetimg.src =url[a]
+blur[a].style.border="3px solid orange"
+blur[a].style.opacity="0.5"
+}
+let values =-1;
+const fun =()=>{
+    values +=1
+    sildermoblie(values)
+}
+let second =url.length;
+const revese =()=>{
+    second--
+    revesesilder(second)
+}
+const revesesilder =(c)=>{
+  if(c<0){
+      c=url.length-1;
+      second=url.length
+
+  }
+    targetimg.src =url[c]
+}
+const sildermoblie =(b)=>{
+    if(b==url.length){
+        b=0;
+        values=-1;
+       
+    }
+  
+targetimg.src =url[b]
+
+}
+
+
 let count =0
 const increment =()=>{
     count++
@@ -78,52 +125,6 @@ const removeblock= ()=>{
         
     }
 }
-let flag=-1
-let url =["./images/image-product-1.jpg","./images/image-product-2.jpg","./images/image-product-3.jpg","./images/image-product-4.jpg"];
-let targetimg=document.getElementById("target-img")
-let blur =document.getElementsByClassName("blur")
-const silder =(a)=>{
-    if(a==url.length){
-        a=0;
-       
-    }
-    for(let b of blur){
-        b.style.border="0px"
-        b.style.opacity="1"
-    }
-targetimg.src =url[a]
-blur[a].style.border="3px solid orange"
-blur[a].style.opacity="0.5"
-}
-let values =-1;
-const fun =()=>{
-    values +=1
-    sildermoblie(values)
-}
-let second =url.length;
-const revese =()=>{
-    second--
-    revesesilder(second)
-}
-const revesesilder =(c)=>{
-  if(c<0){
-      c=url.length-1;
-      second=url.length
-
-  }
-    targetimg.src =url[c]
-}
-const sildermoblie =(b)=>{
-    if(b==url.length){
-        b=0;
-        values=-1;
-       
-    }
-  
-targetimg.src =url[b]
-
-}
-
 
 let taken =document.getElementById("taken");
 
