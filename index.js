@@ -88,6 +88,7 @@ take.style.marginTop ="20px"
 let btn =document.getElementById("btn2")
 
 const target = () =>{
+        window.scrollTo(0,0);
     let displayvalue =document.querySelector(".span")
     displayvalue.style.display="block"
     value()
