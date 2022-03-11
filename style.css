@@ -488,7 +488,7 @@ margin: 12px auto;
 .container .middle .contain  .button {
 display: flex;
 flex-direction: column;
-margin-top: 18px;
+margin-top: 15px;
 align-items: center;
 justify-content: space-around;
 }
@@ -520,6 +520,7 @@ margin-top: 20px;
 .container .middle .contain  .button  .right #btn{
 width: 80vw;
 height: 50px;
+    margin-bottom:10px;
 margin-left: 0px;
 }
 .container .middle .contain .amount{
