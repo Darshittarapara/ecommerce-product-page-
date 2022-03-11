@@ -332,6 +332,7 @@ height: auto;
 background: white;
         width: 100vw;
     margin: 0px;
+        overflow:auto;
         padding: 0px;
 
         height:100vh;
