@@ -413,7 +413,7 @@ left: 0px;
     }
     .container .middle .img img {
         border-radius: 0px;
-        height: 350px;
+        height: 300px;
     }
     .container .middle .manual #btn-1{
         position: absolute ;
@@ -479,8 +479,8 @@ margin: 12px auto;
 }
 
 .container .middle .contain .off {
-/*     position: relative;
-    top: 13px; */
+    position: relative;
+    top: 13px;
     display: inline-block;
     float:right ;
 
@@ -526,16 +526,16 @@ margin-left: 0px;
     color: black;
 
     font-weight: bolder;
-    font-size: 32px;
-/* position: relative;
-top: 10px; */
+    font-size: 28px;
+position: relative;
+top: 10px;
 }
 .container .middle .contain .discount {
     color:hsl(26, 100%, 55%) ;
     width: 30px;
     font-size: 18px;
-/*     position: relative;
-top: 10px; */
+    position: relative;
+top: 10px;
     padding: 1px 5px;
     background: hsl(25, 100%, 94%);
 }
